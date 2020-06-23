@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="Car">
     主页
   </div>
 </template>
@@ -9,7 +9,7 @@
 
 
 export default {
-  name: 'Home',
+  name: 'Car',
   components: {
    
   }

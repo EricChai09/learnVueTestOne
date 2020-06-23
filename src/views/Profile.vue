@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    主页
+    分类
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 
 
 export default {
-  name: 'Home',
+  name: 'Profile',
   components: {
    
   }
