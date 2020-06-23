@@ -5,12 +5,16 @@ import Home from '../views/Home.vue'
 const About = () => import('../views/About.vue')
 const Car = () => import('../views/Car.vue')
 const Profile = () => import('../views/Profile.vue')
+const originalPush = VueRouter.prototype.push
+VueRouter.prototype.push = function push(location) {
+  return originalPush.call(this, location).catch(err => err)
+}
 Vue.use(VueRouter)
 
   const routes = [
   {
     path: '/',
-    redirect:Home
+    redirect:'/home'
   },
   {
     path: '/home',
