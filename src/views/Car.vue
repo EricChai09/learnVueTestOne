@@ -1,6 +1,6 @@
 <template>
   <div class="Car">
-    主页
+    购物车
   </div>
 </template>
 
