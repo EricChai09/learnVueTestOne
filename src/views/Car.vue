@@ -1,6 +1,7 @@
 <template>
   <div class="Car">
     购物车
+    <div>{{$store.state.counte}}</div>
   </div>
 </template>
 
